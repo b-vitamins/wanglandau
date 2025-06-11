@@ -222,6 +222,17 @@ at your option.
 
 Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you shall be dual licensed as above, without any additional terms or conditions.
 
+## Development Setup
+
+Run the helper script `setup-dev.sh` once while online to install the Rust
+toolchain and vendor all dependencies:
+
+```bash
+./setup-dev.sh
+```
+
+Afterwards you can build and test the crate completely offline.
+
 ## References
 
 1. Wang, F. & Landau, D.P. (2001). "Efficient, Multiple-Range Random Walk Algorithm to Calculate the Density of States". *Physical Review Letters*, 86(10), 2050–2053.
